@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
+
+
+  
+.container {
+    padding: 20px; 
+    width: 300px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    border: 3px solid blueviolet;
+  }

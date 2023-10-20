@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Addition2Numbers';
+  firstNumber: string |any ;
+  secondNumber: string |any;
+  result: number |any;
+
+  AddNumber()
+  {
+    this.result = parseInt(this.firstNumber) + parseInt(this.secondNumber);
+  }
 }
